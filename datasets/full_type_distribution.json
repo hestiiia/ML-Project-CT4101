@@ -1,0 +1,14 @@
+{
+  "fake": 70030,
+  "political": 129562,
+  "bias": 87052,
+  "conspiracy": 101758,
+  "junksci": 14418,
+  "clickbait": 13365,
+  "unknown": 10605,
+  "unreliable": 6210,
+  "satire": 5110,
+  "hate": 3145,
+  "reliable": 2506,
+  "rumor": 21660
+}
