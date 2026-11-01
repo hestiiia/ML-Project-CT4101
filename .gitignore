@@ -218,3 +218,6 @@ __marimo__/
 .streamlit/secrets.toml
 datasets/news_sample_balanced.csv
 datasets/news_cleaned_2018_02_13.csv
+datasets/news_sample_balanced.csv
+datasets/audited-data.csv
+datasets/news_test_sample.csv
