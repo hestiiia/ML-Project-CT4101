@@ -18,9 +18,10 @@ The original dataset is approximately 27GB in size and contains over 9 million r
 *Note: The full raw dataset and the generated sample CSV are not committed to this repository due to GitHub file size limits. However, the notebook `balanced-sampler.ipynb` contains the code used to generate the sample.*
 
 ## Project Structure
-- `notebooks/balanced-sampler.ipynb` contains the script used to draw a balanced sample from the original dataset.
-- `notebooks/data-audit.ipynb` contains the data audit.
-- `notebooks/preprocessing.ipynb` contains the baseline model setup, cross-validation and initial evaluation results.
+- `notebooks/01_balanced_sampler.ipynb` contains the script used to draw a balanced sample from the original dataset.
+- `notebooks/02_data_audit.ipynb` contains the data audit.
+- `notebooks/03_preprocessing.ipynb` contains the baseline model setup, cross-validation and initial evaluation results.
+- `notebooks/04_model_comparison.ipynb` contains the Logistic Regression setup, Decision Tree setup, cross-validation and hypertuning results. Note that not all configurations are included here.
 - `requirements.txt` the Python dependencies required to run the project.
 
 ## Setup Instructions
@@ -52,3 +53,11 @@ To reproduce the results, run the notebooks in the following order:
 2. `data-audit.ipynb` outputs `audited-data.csv`.
 
 3. `preprocessing.ipynb` loads `audited-data.csv` and evaluates the baseline model.
+
+Todo:
+
+- Draft final 3,000 word report
+- Clean up the notebooks - go to DISC for guidance on what processes belongs where
+- Refactor repetitive code into reusable scripts
+- Train a random forest classifier (time permitting)
+- Record 5 minute demonstration video for the final submission
